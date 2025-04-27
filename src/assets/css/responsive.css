@@ -1,0 +1,293 @@
+@media screen and (max-width:1280px) {
+    .hero-card {
+        width: 350px;
+    }
+
+    .hero-card h4 {
+        width: 170px;
+    }
+
+    .subscribe-card h2 {
+        padding: 30px;
+    }
+
+    .input-group-subscribe {
+        padding-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:1199px) {
+    .hero-card {
+        width: 300px;
+    }
+
+    .hero-card h4 {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .flash-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .login-register .left-side:after,
+    html[dir="rtl"] .login-register .left-side:after {
+        height: 25%;
+        width: 100%;
+        right: 0%;
+        top: unset;
+        bottom: -15%;
+        rotate: 3deg;
+        border-radius: 60px 30px 0px 0px;
+    }
+
+    .login-register .left-side {
+        min-height: auto;
+        padding-bottom: 100px;
+
+    }
+
+    .form-card {
+        padding-top: 0px;
+    }
+
+    .about-section-img {
+        margin-top: 30px;
+    }
+
+    .dotted {
+        width: 130px;
+        height: 85px;
+        top: -10px;
+        right: -25px;
+    }
+
+    .about-section-img .dotted {
+        right: unset;
+        left: -25px;
+        top: -20px;
+    }
+
+    .hero-img {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .text-lg {
+        font-size: 20px;
+    }
+
+    .input-group-subscribe .form-control {
+        font-size: 16px;
+        border-radius: 18px 0px 0px 18px;
+        height: 60px;
+        padding: 10px 20px;
+    }
+
+    .btn-subscribe .btn-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .btn-subscribe::after {
+        top: 60px;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 0px 0px 15px 0px;
+    }
+
+    .btn-subscribe::before {
+        border-radius: 0px 0px 15px 0px;
+    }
+
+    .subscribe-card h2 {
+        padding: 30px;
+        font-size: 27px;
+    }
+
+    .subscribe-img {
+        width: 300px;
+    }
+
+    .product-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .hero-card {
+        width: 100%;
+        background: transparent;
+        backdrop-filter: blur(0px);
+        border: none;
+    }
+
+    .login-register .left-side {
+        min-height: auto;
+        padding-bottom: 0px;
+    }
+
+    .flash-icon {
+        left: 20px;
+        bottom: 100px;
+    }
+
+    .hero-card h4 {
+        width: 170px;
+        font-size: 20px;
+    }
+
+    .form-card .btn {
+        width: 100%;
+    }
+
+    header {
+        padding: 20px 10px 20px 0px;
+    }
+
+    .hero-img {
+        border-radius: 20px 80px 20px 20px;
+        height: 300px;
+    }
+
+    html[dir="rtl"] .hero-img {
+        border-radius: 80px 20px 20px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .text-lg {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 30px 0px;
+    }
+
+    .hero-section h1 br {
+        display: none;
+    }
+
+    header .btn {
+        display: none;
+    }
+
+    .bg-rotate::before {
+        height: 80px;
+        top: -40px;
+        border-radius: 20px 80px 0px 0px;
+    }
+
+    .bg-rotate::after {
+        height: 80px;
+        bottom: -40px;
+        border-radius: 0px 0px 20px 80px;
+    }
+
+    .bg-rotate {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .product-card {
+        margin-top: 110px;
+    }
+
+    .product-card .product-img {
+        margin-top: -115px;
+    }
+
+    .subscribe-card {
+        border-radius: 20px 20px 80px 20px;
+    }
+
+    html[dir="rtl"] .subscribe-card {
+        border-radius: 20px 20px 20px 80px;
+    }
+
+    .subscribe-card h2 {
+        padding: 30px 20px;
+        font-size: 27px;
+    }
+
+    .input-group-subscribe {
+        padding-left: 20px;
+    }
+
+    html[dir="rtl"] .input-group-subscribe {
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+
+
+    .about-section-img .about-img1 {
+        border-radius: 40px 10px 10px 10px;
+        width: calc(70% - 10px);
+    }
+
+    html[dir="rtl"] .about-section-img .about-img1 {
+        border-radius: 10px 40px 10px 10px;
+    }
+
+    .about-section-img img {
+        border-radius: 10px;
+    }
+
+    .about-section-img .about-img3 {
+        top: calc(35% + 10px);
+    }
+
+    .curve-btn-icon .btn-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .curve-btn-icon::after {
+        top: 35px;
+    }
+
+    header .logo img {
+        max-width: 130px;
+    }
+
+    header .language {
+        font-size: 12px;
+        padding: 5px 8 px;
+    }
+
+    .language img {
+        width: 20px;
+        margin-right: 2px;
+    }
+
+    .btn-cart img {
+        width: 20px;
+    }
+
+}
