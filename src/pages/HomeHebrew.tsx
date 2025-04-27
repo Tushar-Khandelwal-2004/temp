@@ -19,7 +19,7 @@ import diningTableProduct from '../assets/img/DiningTable.png';
 import officeDeskProduct from '../assets/img/OfficeDesk.png';
 import subscribeImg from '../assets/img/subscribe-img.png';
 import rightArrowWhite from '../assets/img/right-arrow-w.png';
-import logoIcon from '../assets/img/logo-icon.png';
+import logoIcon from '../assets/img/logo.png';
 
 declare global {
   interface Window {
